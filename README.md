@@ -18,8 +18,8 @@ $$
 
 Where:
 - $\frac{dx_i}{dt}$ is the change in the frequency of strategy i in between consecutive generations
-- $x_i$ is the frequency of strategy $ i $ in the population.
-- $u_i(x)$ is the average payoff of strategy $ i $ against the population's current composition $ x $.
+- $x_i$ is the frequency of strategy $i$ in the population.
+- $u_i(x)$ is the average payoff of strategy $i$ against the population's current composition $x$.
 - $\bar{u}(x)$ is the average payoff of the population against itself.
 
 ### Evolutionary Stable Strategies (ESS)
