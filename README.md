@@ -57,7 +57,7 @@ Where:
 - $C$ represents the cost of engaging in conflict.
 
 #### Nash Equilibriums:
-1. If \( V/2 > C \), both players playing "Hawk" is a Nash equilibrium as Hawk strictly dominates Dove. $\sigma_i=(1,0) \:\&\: \sigma_j=(1,0)$ is the only Nash equilibrium.
+1. If \( V/2 > C \), both players playing "Hawk" is a Nash equilibrium as Hawk strictly dominates Dove. $\sigma_i=(1,0) \:\: \sigma_j=(1,0)$ is the only Nash equilibrium.
 2. If \( V/2 < C \), one players playing "Hawk" and other player playing "Dove" are the 2 pure strategy Nash equilibria. The mixed strategy Nash equilibrium is calculated to be both players playing "Hawk" with probability $\frac{V}{2C}$ and "Dove" with probability $1 - \frac{V}{2C}$ $\sigma_i=(\frac{V}{2C}, 1-\frac{V}{2C})\:\:\sigma_j=(\frac{V}{2C}, 1-\frac{V}{2C})$ is the Mixed Strategy Nash equilibria.
 
 #### Evolutionary stable strategies (ESS)
