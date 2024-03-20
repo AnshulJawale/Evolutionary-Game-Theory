@@ -10,7 +10,7 @@ Evolutionary games model strategic interactions among individuals in a populatio
 
 Replicator dynamics describe the change in the frequency of strategies over time within a population. It is a key concept in evolutionary game theory and is often used to model the evolution of strategies based on their relative success or fitness.
 
-Mathematically, replicator dynamics can be represented by the following equation for a strategy $$i$$:
+Mathematically, replicator dynamics can be represented by the following equation for a strategy $i$:
 
 $$
 \frac{dx_i}{dt} = x_i (u_i(x) - \bar{u}(x))
@@ -20,7 +20,7 @@ Where:
 - $\frac{dx_i}{dt}$ is the change in the frequency of strategy i in between consecutive generations
 - $x_i$ is the frequency of strategy $ i $ in the population.
 - $u_i(x)$ is the average payoff of strategy $ i $ against the population's current composition $ x $.
-- $ \bar{u}(x) $ is the average payoff of the population against itself.
+- $\bar{u}(x)$ is the average payoff of the population against itself.
 
 ### Evolutionary Stable Strategies (ESS)
 
@@ -32,7 +32,7 @@ $$
 \forall s' \neq s: \bar{u}(s, s) > \bar{u}(s', s)
 $$
 
-Where $ \bar{u}(s, s) $ represents the average payoff of strategy $ s $ against itself.
+Where $\bar{u}(s, s)$ represents the average payoff of strategy $s$ against itself.
 
 ## Common Games 
 
@@ -53,8 +53,8 @@ $$
 $$
 
 Where:
-- $ V $ represents the value of the resource.
-- $ C $ represents the cost of engaging in conflict.
+- $V$ represents the value of the resource.
+- $C$ represents the cost of engaging in conflict.
 
 #### Nash Equilibriums:
 1. If \( V/2 > C \), both players playing "Hawk" is a Nash equilibrium as Hawk strictly dominates Dove. $\sigma_i=(1,0)$ is the only Nash equilibrium.
