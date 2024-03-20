@@ -26,7 +26,7 @@ Where:
 
 An evolutionary stable strategy is a strategy that, if adopted by a population, cannot be invaded by any alternative strategy that is initially rare. ESS represents a stable equilibrium point in the evolution of strategies within a population.
 
-Mathematically, a strategy $ s $ is an ESS if:
+Mathematically, a strategy $s$ is an ESS if:
 
 $$
 \forall s' \neq s: \bar{u}(s, s) > \bar{u}(s', s)
