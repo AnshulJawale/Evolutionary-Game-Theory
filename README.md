@@ -36,36 +36,26 @@ Where $\bar{u}(s, s)$ represents the average payoff of strategy $s$ against itse
 
 ## Common Games 
 
-### Hawk-Dove Game
+-   ### [Hawk-Dove Game](hawk_dove.ipynb)
 
-The Hawk-Dove game models conflict over a resource, where individuals can choose to be aggressive (Hawk) or passive (Dove). The payoff matrix is typically:
+    The Hawk-Dove game models conflict over a resource, where individuals can choose to be aggressive (Hawk) or passive (Dove). The payoff matrix is typically:
 
-$$
-\begin{array}{|c|c|c|}
-\hline
-& \text{Hawk} & \text{Dove} \\
-\hline
-\text{Hawk} & (V/2 - C, V/2 - C) & (V, 0) \\
-\hline
-\text{Dove} & (0, V) & (V/2, V/2) \\
-\hline
-\end{array}
-$$
+    $$
+    \begin{array}{|c|c|c|}
+    \hline
+    & \text{Hawk} & \text{Dove} \\
+    \hline
+    \text{Hawk} & (V/2 - C, V/2 - C) & (V, 0) \\
+    \hline
+    \text{Dove} & (0, V) & (V/2, V/2) \\
+    \hline
+    \end{array}
+    $$
 
-Where:
-- $V$ represents the value of the resource.
-- $C$ represents the cost of engaging in conflict.
+    Where:
+    - $V$ represents the value of the resource.
+    - $C$ represents the cost of engaging in conflict.
 
-#### Nash Equilibriums:
-1. If \( V/2 > C \), both players playing "Hawk" is a Nash equilibrium as Hawk strictly dominates Dove. $\sigma_i=(1,0) \:\: \sigma_j=(1,0)$ is the only Nash equilibrium.
-2. If \( V/2 < C \), one players playing "Hawk" and other player playing "Dove" are the 2 pure strategy Nash equilibria. The mixed strategy Nash equilibrium is calculated to be both players playing "Hawk" with probability $\frac{V}{2C}$ and "Dove" with probability $1 - \frac{V}{2C}$ $\sigma_i=(\frac{V}{2C}, 1-\frac{V}{2C})\:\:\sigma_j=(\frac{V}{2C}, 1-\frac{V}{2C})$ is the Mixed Strategy Nash equilibria.
-
-#### Evolutionary stable strategies (ESS)
-Suppose in a give population, all players are doves (they only play doves). If we add another player to this population, he will be better off playing hawk giving hawks a higher chance to replicate. Hence "Dove" is not an ESS.
-
-Similiarly in a population full of hawks, a new player will have a higher payoff playing dove giving doves a higher chance to replicate. So, even "Dove" is not an ESS
-
-The ESS can be calculated to be $\dfrac{V}{2C}\cdot N$ hawks and $N\cdot(1 - \dfrac{V}{2C})$ doves where N is the size of the population.
 
 
 ## TODO Next
