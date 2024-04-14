@@ -40,17 +40,17 @@ Where $\bar{u}(s, s)$ represents the average payoff of strategy $s$ against itse
 
     The Hawk-Dove game models conflict over a resource, where individuals can choose to be aggressive (Hawk) or passive (Dove). The payoff matrix is typically:
 
-    $$
+    $
     \begin{array}{|c|c|c|}
     \hline
-    & \color{lightcoral}{\text{Hawk}} (H) & \color{lightgreen}{\text{Dove}} (D) \\
-    \hline 
-    \color{lightcoral}{\text{Hawk}} (H) & \frac{V}{2} - C, \frac{V}{2} - C & V, 0 \\
+    & \text{Hawk} & \text{Dove} \\
     \hline
-    \color{lightgreen}{\text{Dove}} (D) & 0, V & \frac{V}{2}, \frac{V}{2} \\
+    \text{Hawk} & (V/2 - C, V/2 - C) & (V, 0) \\
+    \hline
+    \text{Dove} & (0, V) & (V/2, V/2) \\
     \hline
     \end{array}
-    $$
+    $
 
     Where:
     - $V$ represents the value of the resource.
@@ -60,12 +60,12 @@ Where $\bar{u}(s, s)$ represents the average payoff of strategy $s$ against itse
 
     The war of attrition is a dynamic timing game in which players choose a time to stop, and fundamentally trade off the strategic gains from outlasting other players and the real costs expended with the passage of time. Each player chooses a time $t$ to give up and look for other resources and the one who stays for the longest time wins resource of value $V$. Utility of player i is given by : 
 
-    $$ U_i(t) =
+    $ U_i(t) =
       \begin{cases}
         \dfrac{V}{n} - t       & \quad \text{if } i \text{ wins and }n\text{ is the number of players choosing time }t\\
         -t  & \quad \text{if }i\text{ loses}
       \end{cases}
-    $$
+    $
 
     Where $V$ is value of the resource, $n$ is the number of players with the highest time chosen.
 
