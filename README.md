@@ -36,7 +36,7 @@ Where $\bar{u}(s, s)$ represents the average payoff of strategy $s$ against itse
 
 ## Common Games 
 
--   ### [Hawk-Dove Game](hawk_dove.ipynb)
+-   ### [Hawk-Dove Game](https://github.com/AnshulJawale/hawk_dove.ipynb)
 
     The Hawk-Dove game models conflict over a resource, where individuals can choose to be aggressive (Hawk) or passive (Dove). The payoff matrix is typically:
 
