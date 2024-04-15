@@ -57,7 +57,7 @@ $$
 
 ### [War of Attrition](https://github.com/AnshulJawale/Evolutionary-Game-Theory/blob/main/war_of_attrition.ipynb)
 
-The war of attrition is a dynamic timing game in which players choose a time to stop, and fundamentally trade off the strategic gains from outlasting other players and the real costs expended with the passage of time. Each player chooses a time $t$ to give up and look for other resources and the one who stays for the longest time wins resource of value $V$. Utility of player i is given by : 
+Similiar to a bidding system, the war of attrition is a dynamic timing game in which players choose a time to stop, and fundamentally trade off the strategic gains from outlasting other players and the real costs expended with the passage of time. Each player chooses a time $t$ to give up and look for other resources and the one who stays for the longest time wins resource of value $V$. Utility of player i is given by : 
 
 $$ U_i(t) =
       \begin{cases}
@@ -67,6 +67,17 @@ $$ U_i(t) =
 $$
 
 Where $V$ is value of the resource, $n$ is the number of players with the highest time chosen.
+
+### [Social Behaviour](/)
+
+![Social Behaviour](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Game_Theory_Strategic_Social_Alternatives.jpg/450px-Game_Theory_Strategic_Social_Alternatives.jpg)
+
+### [Iterated Prisoners Dilemma](/)
+
+The prisoner's dilemma is a game theory thought experiment that involves two rational agents, each of whom can cooperate for mutual benefit or betray their partner ("defect") for individual reward.
+
+#### Axelrod's tournament
+    Axelrod's Tournament, proposed by political scientist Robert Axelrod in his book "The Evolution of Cooperation" (1984), is a seminal study in evolutionary game theory. It aimed to explore strategies for cooperation and the emergence of cooperation in repeated prisoner's dilemma interactions.
 
 ## TODO Next
 
