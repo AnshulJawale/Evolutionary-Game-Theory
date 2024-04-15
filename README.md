@@ -55,7 +55,7 @@ $$
 - $V$ represents the value of the resource.
 - $C$ represents the cost of engaging in conflict.
 
-### [War of Attrition](/)
+### [War of Attrition]()
 
 Similiar to a bidding system, the war of attrition is a dynamic timing game in which players choose a time to stop, and fundamentally trade off the strategic gains from outlasting other players and the real costs expended with the passage of time. Each player chooses a time $t$ to give up and look for other resources and the one who stays for the longest time wins resource of value $V$. Utility of player i is given by : 
 
@@ -68,11 +68,11 @@ $$
 
 Where $V$ is value of the resource, $n$ is the number of players with the highest time chosen.
 
-### [Social Behaviour](/)
+### [Social Behaviour]()
 
 ![Social Behaviour](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Game_Theory_Strategic_Social_Alternatives.jpg/450px-Game_Theory_Strategic_Social_Alternatives.jpg)
 
-### [Iterated Prisoners Dilemma](/)
+### [Iterated Prisoners Dilemma](https://github.com/AnshulJawale/Evolutionary-Game-Theory/blob/main/iterated_prisoners_dilemma.ipynb)
 
 The prisoner's dilemma is a game theory thought experiment that involves two rational agents, each of whom can cooperate for mutual benefit or betray their partner ("defect") for individual reward.
 
