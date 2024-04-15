@@ -55,7 +55,7 @@ $$
 - $V$ represents the value of the resource.
 - $C$ represents the cost of engaging in conflict.
 
-### [War of Attrition](https://github.com/AnshulJawale/Evolutionary-Game-Theory/blob/main/war_of_attrition.ipynb)
+### [War of Attrition](/)
 
 Similiar to a bidding system, the war of attrition is a dynamic timing game in which players choose a time to stop, and fundamentally trade off the strategic gains from outlasting other players and the real costs expended with the passage of time. Each player chooses a time $t$ to give up and look for other resources and the one who stays for the longest time wins resource of value $V$. Utility of player i is given by : 
 
