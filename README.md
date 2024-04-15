@@ -77,7 +77,7 @@ Where $V$ is value of the resource, $n$ is the number of players with the highes
 The prisoner's dilemma is a game theory thought experiment that involves two rational agents, each of whom can cooperate for mutual benefit or betray their partner ("defect") for individual reward.
 
 #### Axelrod's tournament
-    Axelrod's Tournament, proposed by political scientist Robert Axelrod in his book "The Evolution of Cooperation" (1984), is a seminal study in evolutionary game theory. It aimed to explore strategies for cooperation and the emergence of cooperation in repeated prisoner's dilemma interactions.
+  Axelrod's Tournament, proposed by political scientist Robert Axelrod in his book "The Evolution of Cooperation" (1984), is a seminal study in evolutionary game theory. It aimed to explore strategies for cooperation and the emergence of cooperation in repeated prisoner's dilemma interactions.
 
 ## TODO Next
 
