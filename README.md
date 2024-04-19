@@ -81,7 +81,3 @@ The prisoner's dilemma is a game theory thought experiment that involves two rat
 
 #### Axelrod's tournament
   Axelrod's Tournament, proposed by political scientist Robert Axelrod in his book "The Evolution of Cooperation" (1984), is a seminal study in evolutionary game theory. It aimed to explore strategies for cooperation and the emergence of cooperation in repeated prisoner's dilemma interactions.
-
-## TODO Next
-
-Other games involved in evolutionary game theory : the War of Attrition, Prisoner's Dilemma, Iterated Prisoner's Dilemma, selfish gene game. (and their simulations in python maybe)
