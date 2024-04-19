@@ -34,6 +34,9 @@ $$
 
 Where $\bar{u}(s, s)$ represents the average payoff of strategy $s$ against itself.
 
+It can be said that a strategy $s$ is an ESS if it cannot be invaded by any other strategy $s'$. <br>
+Lets say we have a population of only doves. Now if we add a hawk to this population, the hawk will get a higher payoff on average and thus have more chances of replicating than doves. Thus slowly number of doves will go down and hawks will invade the population. Hence the dove strategy can be invaded and is not an ESS. Similiarly the hawk strategy can also be invaded.
+
 ## Common Games 
 ### [Hawk-Dove Game](https://github.com/AnshulJawale/Evolutionary-Game-Theory/blob/main/hawk_dove.ipynb)
 
